@@ -6,9 +6,9 @@ class Navbar extends React.Component {
         return(
             <React.Fragment>
                 <h2>Navbar</h2>
-                <Link name='About' />
-                <Link name='Projects' />
-                <Link name='Contacts' />
+                <Link linkName='About' />
+                <Link linkName='Projects' />
+                <Link linkName='Contacts' />
             </React.Fragment>
         ) 
     }
