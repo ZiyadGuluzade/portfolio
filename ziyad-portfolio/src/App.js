@@ -1,9 +1,11 @@
 import React from 'react';
-import Header from './components/Header';
+
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Projects from './components/Projects';
+import Header from './components/Header';
 import Aboutme from './components/Aboutme';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends React.Component {
@@ -14,6 +16,7 @@ class App extends React.Component {
         <Header />
         <Aboutme />
         <Projects style={{'position': 'block'}}/>
+        <Contact />
         <Footer />
       </div>
     );
