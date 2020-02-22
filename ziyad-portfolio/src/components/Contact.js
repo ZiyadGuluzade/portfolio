@@ -4,7 +4,7 @@ class Contact extends React.Component {
     render() {
         return(
             <React.Fragment>
-                <div>Contact {this.props.name}</div>
+                <div>Contact {this.props.title}</div>
             </React.Fragment>
         )
     }

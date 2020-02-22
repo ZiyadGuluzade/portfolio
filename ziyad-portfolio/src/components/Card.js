@@ -5,7 +5,7 @@ class Card extends React.Component {
         return(
             <React.Fragment>
                 <div className='project-card'>
-                    <h3>Title {this.props.number}</h3>
+                    <h3>Project {this.props.number}</h3>
                     <figure>
                         <img href="#" alt=''/>
                     </figure>
