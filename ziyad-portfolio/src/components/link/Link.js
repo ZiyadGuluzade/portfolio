@@ -1,12 +1,13 @@
 import React from 'react';
+import './link.css';
 
 class Link extends React.Component {
     render() {
-        const linkName = this.props.linkName;
+        const linkName = this.props.name;
         const link = this.props.link;
         return(
             <React.Fragment>
-                <a href={link} style={{margin: 20, color: 'black'}} >{linkName}</a>
+                <a href={link}>{linkName}</a>
             </React.Fragment>
         )
     }
