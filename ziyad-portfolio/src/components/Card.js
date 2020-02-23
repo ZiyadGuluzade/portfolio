@@ -7,7 +7,7 @@ class Card extends React.Component {
         const button = this.props.button;
         return(
             <React.Fragment>
-                <div className='project-card'>
+                <div className='project-card' style={{textAlign: 'left'}}>
                     <h3>Project {number}</h3>
                     <h4>{name}</h4>
                     <p>Description</p>

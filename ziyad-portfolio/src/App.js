@@ -1,21 +1,22 @@
 import React from 'react';
 
-import Navbar from './components/Navbar';
+import '../src/App.css';
 import Header from './components/Header';
 import Aboutme from './components/Aboutme';
 import Projects from './components/Projects';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
+// import keyboard from './style/images/keyboard.jpg';
 import './App.css';
 
 class App extends React.Component {
   render() {
+  
     return (
-      <div className="App">
-        <Navbar />
+      <div className="App" style={{'position': 'block'}}>
         <Header />
         <Aboutme />
-        <Projects style={{'position': 'block'}}/>
+        <Projects />
         <Contacts />
         <Footer />
       </div>
