@@ -1,19 +1,10 @@
-:root {
-	--main-bg-color: #fff;
-	--main-txt-color: #001d31;
-	--secondary-txt-color: #738084;
-	--main-font-size: 25px;
-	--main-margin: 20px;
+a.button {
+    background-color: #001829;
+    border: none;
+    color: #D1D1D1;
 }
 
-a {
-	text-decoration: none;
-	color: var(--main-txt-color);
-	font-size: var(--main-font-size);
-	padding: 40px 20px;
-	margin: var(--main-margin);
-}
-
-a:hover {
-	color: var(--secondary-txt-color);
+a.button:hover {
+    background-color: #002239;
+    color: white;
 }

@@ -5,7 +5,8 @@ class Aboutme extends React.Component {
         return(
             <React.Fragment>
                 <h2>About Me Component</h2>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                <p>Hi. I am a Full Stack Web Developer. I am passionate about building responsive and well-designed web applications. That is what I do. That is what I am all about.
+Throughout my education in University of Toronto, I have developed such skills as problem solving, working well under pressure, critical thinking, and collaborating with teams. Gaining experience in such a sensitive and dynamic workspace helped me to step up and chase my dream of being a developer. Mastering technologies like Javascript, Node.js and React.js helped me to truly understand core base of development. The complexity and endless varieties of opportunities of this industry attract and make me passionate about technology. Self-development and desire to learn are the main forces pushing me forward into the field and helping me to attain my highest goals.</p>
             </React.Fragment>
         )
     }

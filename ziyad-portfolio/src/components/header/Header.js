@@ -8,9 +8,11 @@ class Header extends React.Component {
     render() {
         return(
             <React.Fragment>
-                <div className='wrapper header'>
-                    <Navbar />
-                </div>
+                <section id='header'>
+                    <div className='wrapper header'>
+                        <Navbar />
+                    </div>
+                </section>
             </React.Fragment>
         )
     }

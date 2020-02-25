@@ -1,25 +1,31 @@
 import React from 'react';
 import Link from '../link/Link';
 import './navbar.css';
+import Logo from '../logo/Logo';
+import Burger from '../navbarburger/Burger';
 
 class Navbar extends React.Component {
     render() {
         return(
             <React.Fragment>
-                <div className='nav'>
-                    <div className='menu-icon'>
-                        <i className='fa fa-bars fa-2x'></i>               
+                <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+                    <div className="navbar-brand">
+                        <Logo />
+                        {/* Navbar burger */}
+                        <Burger />
                     </div>
-                    <div className='logo'>Logo</div>
-                    <div className='menu'>
-                        <ul>
-                            <li><Link link='#' name='About' /></li>
-                            <li><Link link='#' name='Projects'/></li>
-                            <li><Link link='#' name='Contacts'/></li>
-                            <li><Link link='#' name='Resume'/></li>
-                        </ul>
+
+                    <div className="navbar-end">
+                        <div className="navbar-item">
+                            <div className="buttons">
+                                <Link name='About' />
+                                <Link name='Projects' />
+                                <Link name='Contacts' />
+                                <Link name='Resume' />
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </nav>
             </React.Fragment>
         ) 
     }

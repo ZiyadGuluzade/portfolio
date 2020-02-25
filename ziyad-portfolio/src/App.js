@@ -15,11 +15,13 @@ class App extends React.Component {
   
     return (
       <div className="App">
-        <Header />
-        <Aboutme />
-        <Projects />
-        <Contacts />
-        <Footer />
+        <div className='container'>
+          <Header />
+          <Aboutme />
+          <Projects />
+          <Contacts />
+          <Footer />
+        </div>
       </div>
     );
   }
