@@ -9,7 +9,7 @@ class Header extends React.Component {
         return(
             <React.Fragment>
                 <section id='header'>
-                    <div className='wrapper header'>
+                    <div className='wrapper header block'>
                         <Navbar />
                     </div>
                 </section>
