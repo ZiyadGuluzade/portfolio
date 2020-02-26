@@ -9,9 +9,7 @@ class Header extends React.Component {
         return(
             <React.Fragment>
                 <section id='header' className='hero is-fullheight'>
-                    <div className=''>
                         {/* <Navbar /> */}
-                    </div>
                 </section>
             </React.Fragment>
         )
