@@ -10,13 +10,13 @@ class Navbar extends React.Component {
             <React.Fragment>
                 <div className='hero-head'>
                     <div className='columns is-mobile is-marginless heading has-text-weight-bold'>
-                        <div className='column left' style={{border: '2px solid black'}}>
+                        <div className='column left'>
                             <Logo />
                         </div>
-                        <div className='column center' style={{border: '2px solid black'}}>
+                        <div className='column center'>
                             
                         </div>
-                        <div className='column right' style={{border: '2px solid black'}}>
+                        <div className='column right'>
                             <Link name='About' />
                             <Link name='Projects'/>
                             <Link name='Contacts'/>

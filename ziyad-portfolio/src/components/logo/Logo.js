@@ -6,7 +6,8 @@ class Logo extends React.Component {
         return(
             <React.Fragment>
                 <a class="navbar-item block" href="#header">
-                    <h2 className='title'>Ziyad Guluzade</h2>
+                    <h2 className='title' id='not-mobile'>Ziyad Guluzade</h2>
+                    <h2 className='title' id='mobile'> ZG </h2>
                 </a>
             </React.Fragment>
             

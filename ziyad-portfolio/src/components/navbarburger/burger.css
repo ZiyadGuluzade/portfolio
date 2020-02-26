@@ -1,0 +1,9 @@
+@media (min-width: 769px) {
+	#burger {
+		display: none;
+	}
+}
+
+#burger {
+	font-size: 30px;
+}

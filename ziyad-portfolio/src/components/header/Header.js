@@ -1,6 +1,6 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
-// import Navbar from '../navbar/Navbar';
+import Navbar from '../navbar/Navbar';
 import './header.css';
 
 
@@ -9,7 +9,7 @@ class Header extends React.Component {
         return(
             <React.Fragment>
                 <section id='header' className='hero is-fullheight'>
-                        {/* <Navbar /> */}
+                        <Navbar />
                 </section>
             </React.Fragment>
         )
