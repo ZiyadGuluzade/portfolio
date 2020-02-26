@@ -1,3 +1,15 @@
 .hero {
-	background: url('../../images/saturn4k.jpg') center / cover;
+	background: black url('../../images/keyboard/keyboard_desktop.jpg') center / cover;
+}
+
+@media (max-width: 1024px) {
+	.hero {
+		background: black url('../../images/keyboard/keyboard_tablet.jpg') center / cover;
+	}
+}
+
+@media (max-width: 768px) {
+	.hero {
+		background: black url('../../images/keyboard/keyboard_mobile.jpg') center / cover;
+	}
 }
