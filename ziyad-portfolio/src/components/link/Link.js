@@ -6,7 +6,7 @@ class Link extends React.Component {
         
         return(
             <React.Fragment>
-                <a className="button">
+                <a className="button navbar-item tablet">
                     {this.props.name}
                 </a>
             </React.Fragment>

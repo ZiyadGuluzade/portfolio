@@ -5,7 +5,7 @@ class Burger extends React.Component {
     render() {
         return(
             <React.Fragment>
-                
+                <p className='navbar-item'>Burger</p>
             </React.Fragment>
         )
     }

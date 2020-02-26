@@ -1,10 +1,10 @@
 a.button {
-    background-color: #001829;
-    border: none;
-    color: #D1D1D1;
+	background-color: #001829;
+	border: none;
+	color: #d1d1d1;
 }
 
 a.button:hover {
-    background-color: #002239;
-    color: white;
+	background-color: #002239;
+	color: white;
 }
