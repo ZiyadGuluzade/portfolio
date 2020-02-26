@@ -36,6 +36,10 @@
 	line-height: 1;
 }
 
+.hero-head {
+	z-index: 300;
+}
+
 @media (max-width: 1024px) {
 	.desktop {
 		display: none;

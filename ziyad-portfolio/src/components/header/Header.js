@@ -10,14 +10,12 @@ class Header extends React.Component {
         return(
             <React.Fragment>
                 <section id='header' className='hero is-fullheight'>
-                        <div className='hero-head'>
                             <Navbar />
-                        </div>
-                        {/* <header className='hero-body'>
+                        <div className='hero-body'>
                             <div className='is-overlay has-text-centered'>
                                 <h1 class='title is-1' id='welcome'>Welcome</h1>
-                            </div>   
-                        </header> */}
+                            </div> 
+                        </div>
                 </section>
             </React.Fragment>
         )
