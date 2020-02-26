@@ -1,5 +1,10 @@
 .hero {
-	background: black url('../../images/keyboard/keyboard_desktop.jpg') center / cover;
+	background: white url('../../images/keyboard/keyboard_desktop.jpg') center / cover;
+}
+
+#welcome {
+	color: #002239;
+	padding-top: 250px;
 }
 
 @media (max-width: 1024px) {

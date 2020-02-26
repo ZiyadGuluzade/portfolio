@@ -1,9 +1,5 @@
-:root {
-	--primary-txt-color: #ffff;
-}
-
 h2 {
-	color: #000;
+	color: #002239;
 	margin: 5px;
 }
 
@@ -17,4 +13,8 @@ h2 {
 	#mobile {
 		display: none;
 	}
+}
+
+.center {
+	display: flex;
 }

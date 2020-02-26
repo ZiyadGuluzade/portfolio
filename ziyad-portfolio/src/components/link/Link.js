@@ -3,11 +3,11 @@ import './link.css';
 
 class Link extends React.Component {
     render() {
-        
+        const name = this.props.name;
         return(
             <React.Fragment>
                 <a className="button navbar-item tablet">
-                    {this.props.name}
+                    {name}
                 </a>
             </React.Fragment>
         )
