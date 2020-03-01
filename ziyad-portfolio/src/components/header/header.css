@@ -2,10 +2,34 @@
 	background: white url('../../images/keyboard/keyboard_desktop.jpg') center / cover;
 }
 
+.is-overlay {
+	padding-top: 20px;
+}
+
+.welcome {
+	color: #5c6b70;
+	text-shadow: 2px 1px 5px grey;
+}
+
 #welcome {
-	color: #002239;
 	font-size: 70px;
 	padding-top: 250px;
+}
+
+.fa-angle-down {
+	font-size: 40px;
+}
+
+#main-btn {
+	color: #002239;
+	font-size: 30px;
+}
+
+#main-btn:hover {
+	color: #002239;
+	background-color: #b9bfc1;
+	border-radius: 20px;
+	border: 1px solid #d0d4d6;
 }
 
 @media (max-width: 1024px) {
