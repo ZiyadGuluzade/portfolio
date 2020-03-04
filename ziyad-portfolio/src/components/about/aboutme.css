@@ -1,0 +1,21 @@
+.about-text {
+	margin: 40px 40px 40px 20px;
+	position: block;
+	font-size: 22px;
+}
+
+#about {
+	margin: 55px 10px 40px 10px;
+}
+
+#about-subtitle {
+	color: #002239;
+}
+
+@media (max-width: 768px) {
+	.about-text {
+		margin: 20px;
+		position: block;
+		font-size: 18px;
+	}
+}
