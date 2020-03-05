@@ -1,4 +1,5 @@
 import React from 'react';
+import './card.css';
 
 class Card extends React.Component {
     render() {
@@ -6,8 +7,8 @@ class Card extends React.Component {
         const name = this.props.name;
         const button = this.props.button;
         return(
-            <React.Fragment>
-                <div className='project-card' style={{textAlign: 'left'}}>
+            <React.Fragment>   
+                <div className='project-card tile is-4'>
                     <h3>Project {number}</h3>
                     <h4>{name}</h4>
                     <p>Description</p>
