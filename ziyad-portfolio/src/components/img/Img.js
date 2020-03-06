@@ -4,10 +4,11 @@ import './img.css';
 
 class Img extends React.Component {
     render() {
+        const src = this.props.src;
         return(
             <React.Fragment>
                 <figure className='image is-600x480'>
-                    <img src='' alt='pic-1'></img>
+                    <img src={src} alt='pic-1'></img>
                 </figure>
             </React.Fragment>
         )
