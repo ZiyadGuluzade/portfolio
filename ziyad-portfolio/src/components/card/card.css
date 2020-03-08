@@ -5,6 +5,13 @@
 	margin: 0 20vh 0 20vh;
 }
 
+.github-btn {
+	background-color: black;
+}
+
+.project-btn {
+}
+
 @media (max-width: 769px) {
 	.project-card {
 		padding: 30px;

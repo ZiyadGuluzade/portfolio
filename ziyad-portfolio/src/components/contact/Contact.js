@@ -8,10 +8,10 @@ class Contact extends React.Component {
         const link = this.props.link;
         return(
             <React.Fragment>
-                <div className='column is-one-quarter'>
+                <div className='column is-one-quarter has-text-centered'>
                     <a href={link} className='contact-column content has-text-centered'>
-                        <span className='contactName'><i class={logo}></i> <br></br><span>{contactName}</span></span>
-                        
+                        <span className='contactName'><i class={logo}></i></span><br></br>
+                        {contactName}
                     </a>
                 </div>
             </React.Fragment>

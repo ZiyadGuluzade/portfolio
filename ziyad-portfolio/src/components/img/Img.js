@@ -8,7 +8,7 @@ class Img extends React.Component {
         return(
             <React.Fragment>
                 <figure className='image is-600x480'>
-                    <img src={src} alt='pic-1'></img>
+                    <img src={src} alt='pic-1' className='project-image'></img>
                 </figure>
             </React.Fragment>
         )
