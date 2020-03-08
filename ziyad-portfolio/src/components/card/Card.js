@@ -20,8 +20,8 @@ class Card extends React.Component {
                             <h3 className='subtitle is-4'>{name}</h3>
                             <h6 className='subtitle is-5'>Description</h6>
                             <h6 className='subtitle is-5'>Technology Used</h6>
-                            <button type='button' className='project-btn'>{project}</button>
-                            <button type='button' className='github-btn'>{github}</button>
+                            <button type='button' className='project-btn button'><span><i class="fas fa-link"></i></span><span>{project}</span></button>
+                            <button type='button' className='github-btn button'><span><i class="fab fa-github"></i></span><span>{github}</span></button>
                         </div>
                     </div>
                 </div>
