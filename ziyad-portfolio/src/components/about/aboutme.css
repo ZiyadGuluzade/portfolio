@@ -3,7 +3,11 @@
 }
 
 #about-subtitle {
-	color: #002239;
+	color: white;
+}
+
+.about-text {
+	color: white;
 }
 
 @media (max-width: 768px) {

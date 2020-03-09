@@ -1,6 +1,13 @@
 h2 {
-	color: #002239;
 	margin: 5px;
+}
+
+#not-mobile {
+	color: white;
+}
+
+#mobile {
+	color: white;
 }
 
 @media (max-width: 425px) {

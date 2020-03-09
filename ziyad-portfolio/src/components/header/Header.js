@@ -13,11 +13,11 @@ class Header extends React.Component {
                             <Navbar />
                         <div className='hero-body'>
                             <div className='is-overlay has-text-centered'>
-                                <h1 className='title is-1 welcome'id='welcome'>Welcome</h1>
+                                {/* <h1 className='title is-1 welcome'id='welcome'>Welcome</h1>
                                 <span>
                                 <h3 className='is-4 subtitle welcome'>Click to see more</h3>
-                                <i className="fas fa-angle-down welcome"></i>
-                                </span>
+                                <i className="fas fa-angle-down welcome"></i> */}
+                                {/* </span> */}
                             </div> 
                         </div>
                 </section>
