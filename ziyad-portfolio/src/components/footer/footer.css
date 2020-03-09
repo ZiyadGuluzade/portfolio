@@ -1,5 +1,10 @@
 .footer {
-	background-color: #002239;
+	background-color: #4b1c57;
+	height: 30px;
+}
+
+#footer-title {
+	font-size: 15px;
 }
 
 div.subtitle {

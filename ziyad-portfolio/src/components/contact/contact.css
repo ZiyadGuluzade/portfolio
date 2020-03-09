@@ -1,8 +1,8 @@
 .contact-column {
-	color: #005c7a;
+	color: white;
 	font-size: 25px;
 }
 
 .contact-column:hover {
-	color: #002239;
+	color: grey;
 }
