@@ -1,8 +1,12 @@
 #contacts-title {
 	color: white;
-	padding: 20px 0 20px 0;
+	padding: 20px 0 0 0;
 }
 
 #contacts {
-	padding: 100px 0 100px 0;
+	padding: 60px 0 100px 0;
+}
+
+.subtitle-box {
+	margin-bottom: 50px;
 }
