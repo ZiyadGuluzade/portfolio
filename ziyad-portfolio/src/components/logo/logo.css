@@ -11,35 +11,24 @@ h2 {
 .logo-initials {
 	background-color: #4e0859;
 	width: 65px;
-	height: 65px;
+	height: 50px;
 	font-weight: 900;
-	padding: 5px 2px 1px 4px;
 	z-index: 10;
 	border: 2px solid white;
+	font-family: 'Russo One', sans-serif;
 }
 
 .full-logo {
-	display: none;
-}
-
-#not-mobile {
-	color: white;
-}
-
-#mobile {
 	color: white;
 }
 
 @media (max-width: 425px) {
-	#not-mobile {
+	.full-logo {
 		display: none;
 	}
 }
 
 @media (min-width: 426px) {
-	#mobile {
-		display: none;
-	}
 }
 
 .center {

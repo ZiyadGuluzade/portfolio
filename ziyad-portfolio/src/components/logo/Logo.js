@@ -7,10 +7,10 @@ class Logo extends React.Component {
             <React.Fragment>
                 <div className='navbar-item center'>
                     <div className='logo-initials'>
-                        <h2 className='title' id='initials'>ZG</h2>
+                        <h2 className='title content has-text-centered' id='initials'>ZG</h2>
                     </div>
                     <div className='full-logo'>
-                        <h2 className='title' id='not-mobile'>Ziyad Guluzade</h2>
+                        <h2 className='subtitle is-3' >Ziyad Guluzade</h2>
                     </div>
                     
                 </div>
