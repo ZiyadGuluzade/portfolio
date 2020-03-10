@@ -34,7 +34,6 @@ h6.subtitle {
 .project-btn:hover {
 	color: #38ff52;
 	border-radius: 1px solid #38ff52;
-	/* background-color: #e8e8e8; */
 	box-shadow: 0 0 40px rgba(13, 219, 23, 0.5);
 }
 

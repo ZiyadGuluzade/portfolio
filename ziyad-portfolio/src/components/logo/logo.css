@@ -2,6 +2,26 @@ h2 {
 	margin: 5px;
 }
 
+/* logo */
+#initials {
+	color: white;
+	letter-spacing: 0.1px;
+}
+
+.logo-initials {
+	background-color: #4e0859;
+	width: 65px;
+	height: 65px;
+	font-weight: 900;
+	padding: 5px 2px 1px 4px;
+	z-index: 10;
+	border: 2px solid white;
+}
+
+.full-logo {
+	display: none;
+}
+
 #not-mobile {
 	color: white;
 }
