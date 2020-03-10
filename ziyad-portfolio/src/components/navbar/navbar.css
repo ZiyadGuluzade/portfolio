@@ -1,12 +1,11 @@
 /* navbar */
 .hero-head {
-	background: transparent;
+	/* background: transparent; */
 	position: fixed;
+	height: 80px;
 	width: 100%;
-}
-
-.hero-head {
 	z-index: 300;
+	background-color: rgba(75, 0, 130, 0.842);
 }
 
 .nav-scroll {
