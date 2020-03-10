@@ -1,9 +1,14 @@
+/* project card */
 .project-card {
 	background-color: black;
 	border: 3px solid #53215f;
 	border-radius: 20px;
 	padding: 30px;
 	margin: 0 20vh 0 20vh;
+}
+
+.project-card:hover {
+	box-shadow: 0 0 11px rgba(245, 255, 250, .5);
 }
 
 h3.subtitle {
@@ -18,24 +23,22 @@ h6.subtitle {
 	color: white;
 }
 
-/* project button styling */
+/* project button */
 .project-btn {
+	background-color: black;
+	color: #38ff52;
 	margin: 0 7px 0 0;
-	border-radius: 1px solid white;
+	border-radius: 1px solid #38ff52;
 }
 
 .project-btn:hover {
-	color: black;
-	border-radius: 1px solid black;
-	background-color: #e8e8e8;
-	box-shadow: 0 0 11px rgba(245, 255, 250, .5);
+	color: #38ff52;
+	border-radius: 1px solid #38ff52;
+	/* background-color: #e8e8e8; */
+	box-shadow: 0 0 40px rgba(13, 219, 23, 0.5);
 }
 
-.project-card:hover {
-	box-shadow: 0 0 11px rgba(245, 255, 250, .5);
-}
-
-/* github button styling */
+/* github button */
 .github-btn {
 	background-color: black;
 	color: white;
@@ -50,6 +53,7 @@ h6.subtitle {
 	box-shadow: 0 0 11px rgba(245, 255, 250, .5);
 }
 
+/* media queries */
 @media (max-width: 769px) {
 	.project-card {
 		padding: 30px;
