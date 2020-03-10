@@ -17,10 +17,10 @@ class Navbar extends React.Component {
                             
                         </div>
                         <div className='column right'>
-                            <Link name='About' />
-                            <Link name='Projects'/>
-                            <Link name='Contacts'/>
-                            <Link name='Resume'/>
+                            <Link name='About' href='#about' />
+                            <Link name='Portfolio' href='#projects' />
+                            <Link name='Contacts' href='#contacts' />
+                            <Link name='Resume' href='../../../src/docs/guluzade_resume.pdf' />
                             <Burger />
                         </div>
                     </div>

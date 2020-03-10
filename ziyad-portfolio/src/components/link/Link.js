@@ -7,7 +7,7 @@ class Link extends React.Component {
         const href = this.props.href;
         return(
             <React.Fragment>
-                <a className="button navbar-item tablet">
+                <a className="button navbar-item tablet" href={href}>
                     {name}
                 </a>
             </React.Fragment>
