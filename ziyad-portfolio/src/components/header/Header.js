@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '../navbar/Navbar';
 // import Link from '../link/Link';
 import './header.css';
+import Hr from '../hr/Hr';
 
 
 class Header extends React.Component {
@@ -17,6 +18,7 @@ class Header extends React.Component {
                                 <span>
                                 <p className='is-4 subtitle'>I enjoy creating interactive, modern web applications.</p>
                                 </span>
+                                <Hr />
                             </div> 
                         </div>
                 </section>

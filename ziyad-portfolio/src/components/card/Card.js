@@ -11,6 +11,9 @@ class Card extends React.Component {
         const github = this.props.button2;
         const imgSrc = this.props.src;
         const technologies = this.props.technologies;
+        const projectLink = this.props.projectLink;
+        const githubLink = this.props.githubLink;
+        const target = this.props.target;
         return(
             <React.Fragment> 
                 <div className='box project-card'>
@@ -24,10 +27,15 @@ class Card extends React.Component {
                             <div className='tags'>
                                 <h6 className='subtitle is-5'>Built with:</h6>
                                 <p className='tech-list'>{technologies}</p>
-                                
                             </div>
-                            <button type='button' className='project-btn button'><span><i class="fas fa-link"></i></span><span>{project}</span></button>
-                            <button type='button' className='github-btn button'><span><i class="fab fa-github"></i></span><span>{github}</span></button>
+                            {/* project link */}
+                            <a href={projectLink} target={target}>
+                                <button type='button' className='project-btn button'><span><i class="fas fa-link"></i></span><span>{project}</span></button>
+                            </a>
+                            {/* github  link */}
+                            <a href={githubLink} target={target}>
+                                <button type='button' className='github-btn button'><span><i class="fab fa-github"></i></span><span>{github}</span></button>
+                            </a>
                         </div>
                     </div>
                 </div>
