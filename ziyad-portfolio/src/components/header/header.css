@@ -3,17 +3,21 @@
 }
 
 .is-overlay {
-	padding-top: 20px;
+	/* padding-top: 20px; */
+	display: inline-block;
+	margin-left: 250px;
+	margin-right: 20px;
 }
 
 .welcome {
-	color: #5c6b70;
-	text-shadow: 2px 1px 5px grey;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #welcome {
-	font-size: 70px;
+	font-size: 50px;
 	padding-top: 250px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .fa-angle-down {
@@ -40,6 +44,10 @@
 	#welcome {
 		font-size: 60px;
 	}
+
+	.is-overlay {
+		margin-left: 120px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -49,5 +57,9 @@
 
 	#welcome {
 		font-size: 50px;
+	}
+
+	.is-overlay {
+		margin-left: 50px;
 	}
 }
