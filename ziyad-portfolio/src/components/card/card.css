@@ -52,6 +52,12 @@ h6.subtitle {
 	box-shadow: 0 0 11px rgba(245, 255, 250, .5);
 }
 
+.tech-list {
+	margin: 0 0 24px 5px;
+	color: white;
+	font-size: 20px;
+}
+
 /* media queries */
 @media (max-width: 769px) {
 	.project-card {
