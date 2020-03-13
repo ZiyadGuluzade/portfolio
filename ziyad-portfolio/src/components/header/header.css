@@ -36,6 +36,13 @@
 	border: 1px solid #d0d4d6;
 }
 
+hr.header-line {
+	color: #4cbaff;
+	height: 3px;
+	background-color: #4cbaff;
+	max-width: 400px;
+}
+
 @media (max-width: 1024px) {
 	.hero {
 		background: black url('../../images/black_geo_tablet.jpg') center / cover;
@@ -47,6 +54,10 @@
 
 	.is-overlay {
 		margin-left: 120px;
+	}
+
+	hr.header-line {
+		max-width: 350px;
 	}
 }
 
@@ -61,5 +72,9 @@
 
 	.is-overlay {
 		margin-left: 50px;
+	}
+
+	hr.header-line {
+		max-width: 200px;
 	}
 }
