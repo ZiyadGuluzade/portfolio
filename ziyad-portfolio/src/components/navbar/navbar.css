@@ -1,16 +1,16 @@
 /* navbar */
 .hero-head {
-	/* background: transparent; */
+	background: transparent;
 	position: fixed;
 	height: 80px;
 	width: 100%;
 	z-index: 300;
-	background-color: rgba(75, 0, 130, 0.842);
+	/* background-color: rgba(75, 0, 130, 0.842); */
 }
 
-.nav-scroll {
+/* .nav-scroll {
 	background-color: rgba(75, 0, 130, 0.842);
-}
+} */
 
 /* columns */
 .center,

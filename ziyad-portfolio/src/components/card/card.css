@@ -1,14 +1,14 @@
 /* project card */
 .project-card {
 	background-color: black;
-	border: 3px solid #53215f;
+	border: 2px solid #0084d6;
 	border-radius: 20px;
 	padding: 30px;
 	margin: 0 20vh 0 20vh;
 }
 
 .project-card:hover {
-	box-shadow: 0 0 11px rgba(245, 255, 250, .5);
+	box-shadow: 0 0 18px rgba(255, 255, 255, 0.5);
 }
 
 h3.subtitle {
@@ -26,15 +26,15 @@ h6.subtitle {
 /* project button */
 .project-btn {
 	background-color: black;
-	color: #38ff52;
+	color: #ffcf23;
 	margin: 0 7px 0 0;
-	border-radius: 1px solid #38ff52;
+	border-radius: 1px solid #ffcf23;
 }
 
 .project-btn:hover {
-	color: #38ff52;
-	border-radius: 1px solid #38ff52;
-	box-shadow: 0 0 40px rgba(13, 219, 23, 0.5);
+	color: #ffcf23;
+	border-radius: 1px solid #ffcf23;
+	box-shadow: 0 0 10px rgb(247, 226, 37);
 }
 
 /* github button */
@@ -46,10 +46,10 @@ h6.subtitle {
 }
 
 .github-btn:hover {
-	background-color: #222729;
-	color: white;
+	background-color: black;
+	color: rgba(10, 25, 236, 37);
 	border: 1px solid white;
-	box-shadow: 0 0 11px rgba(245, 255, 250, .5);
+	box-shadow: 0 0 10px rgba(10, 25, 236, 37);
 }
 
 .tech-list {

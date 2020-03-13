@@ -1,5 +1,5 @@
 .hero {
-	background: black url('../../images/solar_system/solar_system_desktop.png') center / cover;
+	background: black url('../../images/black_geo.jpg') center / cover;
 }
 
 .is-overlay {
@@ -34,7 +34,7 @@
 
 @media (max-width: 1024px) {
 	.hero {
-		background: black url('../../images/solar_system/solar_system_tablet.png') center / cover;
+		background: black url('../../images/black_geo_tablet.jpg') center / cover;
 	}
 
 	#welcome {
@@ -44,7 +44,7 @@
 
 @media (max-width: 768px) {
 	.hero {
-		background: black url('../../images/solar_system/solar_system_mobile.png') center / cover;
+		background: black url('../../images/black_geo_mobile.jpg') center / cover;
 	}
 
 	#welcome {

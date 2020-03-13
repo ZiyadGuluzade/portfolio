@@ -4,22 +4,22 @@ h2 {
 
 /* logo */
 #initials {
-	color: white;
+	color: #004570;
 	letter-spacing: 0.1px;
 }
 
 .logo-initials {
-	background-color: #00d61c;
+	background-color: #ffc700;
 	width: 65px;
 	height: 50px;
 	font-weight: 900;
 	z-index: 10;
-	border: 2px solid white;
+	border: 2px solid #004570;
 	font-family: 'Russo One', sans-serif;
 }
 
 .logo-initials:hover {
-	background-color: #008912;
+	background-color: #be9709;
 }
 
 .full-logo {
