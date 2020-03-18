@@ -4,8 +4,9 @@
 
 .is-overlay {
 	/* padding-top: 20px; */
-	display: inline-block;
-	margin-left: 250px;
+	position: inline-block;
+	/* margin-top: 5%; */
+	margin-left: 25%;
 	margin-right: 20px;
 }
 
@@ -43,7 +44,7 @@ hr.header-line {
 	max-width: 400px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 	.hero {
 		background: black url('../../images/black_geo_tablet.jpg') center / cover;
 	}
@@ -53,7 +54,7 @@ hr.header-line {
 	}
 
 	.is-overlay {
-		margin-left: 120px;
+		margin-left: 60px;
 	}
 
 	hr.header-line {
@@ -61,20 +62,20 @@ hr.header-line {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
 	.hero {
 		background: black url('../../images/black_geo_mobile.jpg') center / cover;
 	}
 
 	#welcome {
-		font-size: 50px;
+		font-size: 30px;
 	}
 
 	.is-overlay {
-		margin-left: 50px;
+		margin-left: 25px;
 	}
 
 	hr.header-line {
-		max-width: 200px;
+		max-width: 150px;
 	}
 }

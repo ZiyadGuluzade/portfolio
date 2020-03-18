@@ -1,7 +1,6 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
 import Navbar from '../navbar/Navbar';
-// import Link from '../link/Link';
 import './header.css';
 
 
