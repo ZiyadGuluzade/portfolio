@@ -5,16 +5,17 @@ h2 {
 
 /* logo */
 #initials {
-	color: #004570;
+	color: #0d1b4c;
 }
 
 .logo-initials {
-	background-color: #ffc700;
-	width: 65px;
+	background-color: #ffc90e;
+	width: 61px;
 	height: 50px;
+	padding-top: 3px;
+	padding-left: 1px;
 	font-weight: 900;
-	z-index: 10;
-	border: 2px solid #004570;
+	z-index: 300;
 	font-family: 'Russo One', sans-serif;
 }
 
