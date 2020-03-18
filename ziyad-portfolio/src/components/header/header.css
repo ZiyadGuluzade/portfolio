@@ -6,7 +6,7 @@
 	/* padding-top: 20px; */
 	position: inline-block;
 	/* margin-top: 5%; */
-	margin-left: 25%;
+	margin-left: 20%;
 	margin-right: 20px;
 }
 
@@ -50,11 +50,11 @@ hr.header-line {
 	}
 
 	#welcome {
-		font-size: 60px;
+		font-size: 50px;
 	}
 
 	.is-overlay {
-		margin-left: 60px;
+		margin-left: 10%;
 	}
 
 	hr.header-line {
@@ -72,7 +72,7 @@ hr.header-line {
 	}
 
 	.is-overlay {
-		margin-left: 25px;
+		margin-left: 6%;
 	}
 
 	hr.header-line {
