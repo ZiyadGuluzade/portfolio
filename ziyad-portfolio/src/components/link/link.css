@@ -7,6 +7,6 @@ a.button {
 
 a.button:hover {
 	background-color: #191919;
-	color: #f9ca20;
-	border: 1px solid #7c7c7c;
+	color: white;
+	border: 1px solid #4cbaff;
 }
