@@ -1,10 +1,13 @@
 import React from 'react';
 import './card.css';
 import Img from '../img/Img';
-// import Tag from '../tag/Tag';
+import Rellax from 'rellax';
 
 
 class Card extends React.Component {
+    componentDidMount() {
+        this.rellax = new Rellax('.rellax');
+    }
     render() {
         const name = this.props.name;
         const project = this.props.button1;

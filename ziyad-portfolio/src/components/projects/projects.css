@@ -3,6 +3,11 @@
 	font-family: 'Russo One', sans-serif;
 }
 
+#projects {
+	margin-top: 40px;
+}
+
 .subtitle-box {
-	margin-bottom: 30px;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }

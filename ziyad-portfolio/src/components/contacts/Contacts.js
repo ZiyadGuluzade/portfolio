@@ -1,15 +1,20 @@
 import React from 'react';
 import Contact from '../contact/Contact';
 import Hr from '../hr/Hr';
+import Rellax from 'rellax';
 import './contacts.css';
 
 class Contacts extends React.Component {
+    componentDidMount() {
+        this.rellax = new Rellax('.rellax');
+    }
     render() {
         return(
             <React.Fragment>
                 <section id='contacts'>
                     <div className='subtitle-box'>
-                        <h2 className='subtitle is-2 has-text-centered' id='contacts-title'>WHERE TO FIND ME</h2>
+                        <h2 className='subtitle is-2 has-text-centered'
+                        id='contacts-title'>WHERE TO FIND ME</h2>
                         <Hr />
                     </div>
                     <div className='columns'>

@@ -34,22 +34,21 @@ h6.subtitle {
 .project-btn:hover {
 	color: #ffcf23;
 	border-radius: 1px solid #ffcf23;
-	box-shadow: 0 0 10px rgb(247, 226, 10);
+	background-color: #1D1D1D;
 }
 
 /* github button */
 .github-btn {
 	background-color: black;
-	color: white;
+	color: #4cbaff;
 	border-radius: 1px solid black;
 	margin: 0 0 0 7px;
 }
 
 .github-btn:hover {
-	background-color: black;
-	color: #4cbaff;
 	border: 1px solid white;
-	box-shadow: 0 0 10px rgba(10, 25, 236, 37);
+	color: #4cbaff;
+	background-color: #1D1D1D;
 }
 
 .tech-list {

@@ -9,9 +9,7 @@ class Logo extends React.Component {
                     <div className='logo-initials'>
                         <a href='#header'>
                             <span>
-                                <i class="fas fa-angle-left"></i>
-                                    <h2 className='title content has-text-centered' id='initials'>ZG</h2>
-                                <i class="fas fa-angle-right"></i>
+                                <h2 className='title content has-text-centered' id='initials'><i className="fas fa-angle-left"></i>ZG<i className="fas fa-angle-right"></i></h2>
                             </span>
                         </a> 
                     </div>

@@ -5,22 +5,22 @@ h2 {
 
 /* logo */
 #initials {
-	color: #0d1b4c;
+	color: #4cbaff;
 }
 
 .logo-initials {
-	background-color: #ffc90e;
-	width: 61px;
+	background-color: black;
+	border: 3px solid #4cbaff;
+	border-radius: 10px;
+	width: 100px;
 	height: 50px;
-	padding-top: 3px;
-	padding-left: 1px;
-	font-weight: 900;
+	font-weight: 500;
 	z-index: 300;
 	font-family: 'Russo One', sans-serif;
 }
 
 .logo-initials:hover {
-	background-color: #be9709;
+	background-color: #1D1D1D;
 }
 
 .full-logo {
