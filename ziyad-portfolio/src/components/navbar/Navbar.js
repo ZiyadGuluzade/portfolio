@@ -2,9 +2,21 @@ import React from 'react';
 import Link from '../link/Link';
 import './navbar.css';
 import Logo from '../logo/Logo';
-import Burger from '../navbarburger/Burger';
 
 class Navbar extends React.Component {
+    constructor(props) {
+        super(props);
+        this.toggleNavbar = this.toggleNavbar.bind(this);
+        this.state = {
+            collapsed: true
+        }
+    }
+    toggleNavbar() {
+        this.setState({
+            collapsed: !this.state.collapsed
+        });
+    }
+    
     render() {
         return(
             <React.Fragment>
@@ -13,15 +25,19 @@ class Navbar extends React.Component {
                         <div className='column left'>
                             <Logo />
                         </div>
-                        <div className='column center'>
-                            
-                        </div>
-                        <div className='column right'>
-                            <Link name='About' href='#about' />
-                            <Link name='Portfolio' href='#projects' />
-                            <Link name='Contacts' href='#contacts' />
-                            <Link name='Resume' href='../../../src/docs/guluzade_resume.pdf' />
-                            <Burger />
+
+                        <div className='column center'></div>
+
+                        <div className='column right' onClick={this.toggleNavbar}>
+                            <div className='navbar-burger'>
+                                <i className="fas fa-bars"></i>
+                            </div>
+                            <div className='navbar-end'>
+                                <Link name='About' href='#about' />
+                                <Link name='Portfolio' href='#projects' />
+                                <Link name='Contacts' href='#contacts' />
+                                <Link name='Resume' href='../../src/docs/guluzade_resume.pdf' target='_blank'/>
+                            </div>
                         </div>
                     </div>
                 </div>
