@@ -2,6 +2,7 @@ import React from 'react';
 import Link from '../link/Link';
 import './navbar.css';
 import Logo from '../logo/Logo';
+import Pdf from './resume.pdf';
 
 class Navbar extends React.Component {
     constructor(props) {
@@ -36,7 +37,7 @@ class Navbar extends React.Component {
                                 <Link name='About' href='#about' />
                                 <Link name='Portfolio' href='#projects' />
                                 <Link name='Contacts' href='#contacts' />
-                                <Link name='Resume' href='../../src/docs/guluzade_resume.pdf' target='_blank'/>
+                                <Link name='Resume' href={Pdf} />
                             </div>
                         </div>
                     </div>

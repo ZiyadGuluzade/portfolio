@@ -56,6 +56,23 @@
 	line-height: 1;
 }
 
+/* resume button */
+#resume {
+	padding-top: 6px 5px 0 5px;
+	font-size: 17px;
+	background: transparent;
+	border: none;
+	color: white;
+	font-family: 'Russo One', sans-serif;
+}
+
+#resume:hover {
+	background-color: #191919;
+	color: white;
+	border: 1px solid #4cbaff;
+	border-radius: 7px;
+}
+
 /*media queries */
 @media (max-width: 1024px) {
 
