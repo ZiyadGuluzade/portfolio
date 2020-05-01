@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../src/App.css';
 import Header from './components/header/Header';
-import Aboutme from './components/about/Aboutme';
+// import Aboutme from './components/about/Aboutme';
 import Projects from './components/projects/Projects';
 import Contacts from './components/contacts/Contacts';
 import Footer from './components/footer/Footer';
@@ -17,7 +17,7 @@ class App extends React.Component {
       <div className='App'>
         <div>
           <Header />
-          <Aboutme />
+          {/* <Aboutme /> */}
           <Projects />
           <Contacts />
           <Footer />

@@ -11,7 +11,7 @@ class Contact extends React.Component {
             <React.Fragment>
                 <div className='column is-one-quarter has-text-centered'>
                     <a href={link} className='contact-column content has-text-centered' target={target}>
-                        <span className='contactName'><i class={logo}></i></span><br></br>
+                        <span className='contactName'><i className={logo}></i></span><br></br>
                         {contactName}
                     </a>
                 </div>

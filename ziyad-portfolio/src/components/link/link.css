@@ -1,5 +1,6 @@
 a.button {
 	background: transparent;
+	margin: 0 5px 0 5px;
 	border: none;
 	color: white;
 	font-family: 'Russo One', sans-serif;
@@ -7,7 +8,14 @@ a.button {
 
 a.button:hover {
 	background-color: #191919;
-	color: white;
-	border: 1px solid #4cbaff;
+	color: #4cbaff;
+	border: none;
 	border-radius: 7px;
+}
+
+@media (max-width: 768px) {
+	a.button:hover {
+		border: none;
+		color: #4cbaff;
+	}
 }

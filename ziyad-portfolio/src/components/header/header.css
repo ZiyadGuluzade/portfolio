@@ -3,11 +3,23 @@
 }
 
 .is-overlay {
-	/* padding-top: 20px; */
 	position: inline-block;
-	/* margin-top: 5%; */
+	/* margin-bottom: 30%;
+	margin-top: 1vh; */
 	margin-left: 20%;
-	margin-right: 20px;
+	margin-right: 20%;
+}
+
+#about {
+	font-size: 20px;
+	margin: 10px 0 10px 0;
+}
+a.contacts-link {
+	color: #4cbaff;
+}
+
+a.contacts-link:hover {
+	color: #707270;
 }
 
 .welcome {
@@ -50,7 +62,7 @@ hr.header-line {
 	}
 
 	#welcome {
-		font-size: 50px;
+		font-size: 33px;
 	}
 
 	.is-overlay {

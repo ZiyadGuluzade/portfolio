@@ -7,8 +7,8 @@ class Img extends React.Component {
         const src = this.props.src;
         return(
             <React.Fragment>
-                <figure className='image is-4by3'>
-                    <img src={src} alt='pic-1' className='project-image'></img>
+                <figure className='image is-5by3'>
+                    <img src={src} alt='project' className='project-image'></img>
                 </figure>
             </React.Fragment>
         )

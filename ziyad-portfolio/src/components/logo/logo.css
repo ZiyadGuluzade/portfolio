@@ -20,19 +20,11 @@ h2 {
 }
 
 .logo-initials:hover {
-	background-color: #1D1D1D;
-}
-
-.full-logo {
-	color: white;
+	background-color: black;
 }
 
 @media (max-width: 768px) {
-	.full-logo {
-		display: none;
+	.center {
+		display: flex;
 	}
-}
-
-.center {
-	display: flex;
 }

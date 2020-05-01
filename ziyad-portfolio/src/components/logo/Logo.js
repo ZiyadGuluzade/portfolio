@@ -12,11 +12,7 @@ class Logo extends React.Component {
                                 <h2 className='title content has-text-centered' id='initials'><i className="fas fa-angle-left"></i>ZG<i className="fas fa-angle-right"></i></h2>
                             </span>
                         </a> 
-                    </div>
-                    <div className='full-logo'>
-                        <h2 className='subtitle is-3'>Ziyad Guluzade</h2>
-                    </div>
-                    
+                    </div>  
                 </div>
             </React.Fragment>
             

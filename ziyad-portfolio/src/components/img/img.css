@@ -1,3 +1,6 @@
 .project-image {
-	border-radius: 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
 }

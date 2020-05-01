@@ -13,8 +13,8 @@ class Contacts extends React.Component {
             <React.Fragment>
                 <section id='contacts'>
                     <div className='subtitle-box'>
-                        <h2 className='subtitle is-2 has-text-centered'
-                        id='contacts-title'>WHERE TO FIND ME</h2>
+                        <h3 className='subtitle is-3 has-text-centered'
+                        id='contacts-title'>WHERE TO FIND ME</h3>
                         <Hr />
                     </div>
                     <div className='columns'>
