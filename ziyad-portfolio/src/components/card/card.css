@@ -53,12 +53,6 @@ h6.subtitle {
 	background-color: #1d1d1d;
 }
 
-.tech-list {
-	margin: 0 0 24px 5px;
-	color: white;
-	font-size: 20px;
-}
-
 /* media queries */
 @media (max-width: 769px) {
 	.project-card {

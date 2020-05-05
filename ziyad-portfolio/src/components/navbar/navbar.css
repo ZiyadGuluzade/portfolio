@@ -1,48 +1,27 @@
 * {
 	box-sizing: border-box;
 }
-/* navbar */
+
 nav {
 	background: rgba(26, 26, 26, 0.8);
 	position: fixed;
 	width: 100%;
 	display: block;
-	/* this line moves logo to the left */
-	/* justify-content: space-around; */
 	align-items: center;
-	/* min-height: 10vh; */
 	height: 65px;
-	/* padding: 0 10px 0 2px; */
-	/* position: fixed; */
-
-	/* height: 67px; */
-	/* width: 100%; */
 	z-index: 300;
 }
 
 .logo {
-	/* position: fixed; */
 	float: left;
 }
 
 .nav-links {
 	display: flex;
-	/* position: fixed; */
 	text-transform: uppercase;
-	/* justify-content: space-around; */
-	/* width: 20%; */
 	float: right;
 	margin: 10px 10px 0 0;
-	/* position: fixed; */
-	/* margin-right: 2px; */
-	/* text-decoration: none; */
-	/* font-weight: bold; */
 }
-
-/* navbar burger */
-/* .nav-burger {
-	display: block;
-} */
 
 .nav-burger div {
 	width: 30px;
@@ -56,71 +35,21 @@ nav {
 	cursor: pointer;
 }
 
-/* columns */
-/* .center,
-.top,
-.right,
-.bottom,
-.left {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-} */
-
-.nav-column {
-	/* display: flex; */
-	/* flex-direction: row; */
-	/* margin-right: 10px; */
-}
-
-/* .fa-bars {
-	display: flex;
-	color: white;
-	font-size: 40px;
-} */
-
-/* .center-column {
-	flex-direction: column;
-} */
-
-/* .single-spaced,
-.single-spaced * {
-	line-height: 1;
-} */
-
-/*media queries */
-/* @media (max-width: 1024px) {
-	.nav-links {
-		display: flex;
-		flex-direction: row;
-	}
-} */
-
-@media (max-width: 1024px) {
-	/* .nav-links {
-		width: 30%;
-	} */
-}
-
 @media (max-width: 768px) {
 	body {
 		overflow: hidden;
 	}
 	.nav-links {
 		position: absolute;
-		height: 170px;
+		height: 130px;
 		top: 55px;
 		background: rgba(26, 26, 26, 0.8);
 		width: 100%;
 		flex-direction: column;
 		align-items: center;
-		transition: transform 0.3s ease-in;
-		transform: translateX(0%);
+		transform: translateY(-200%);
 	}
-	.nav-links li {
-		/* opacity: 0%; */
-		/* display: none; */
-	}
+
 	.nav-burger {
 		display: block;
 		float: right;
@@ -128,9 +57,6 @@ nav {
 	}
 }
 
-/* .nav-active {
-	/* background-color: red; */
-/* transform: translateX(100%);
-	opacity: 100%; */
-/* display: block; */
-/* } */
+.nav-active {
+	transform: translateY(0%);
+}
