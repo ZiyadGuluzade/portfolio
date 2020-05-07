@@ -1,37 +1,33 @@
 import React from 'react';
 import './card.css';
 import Img from '../img/Img';
-import Rellax from 'rellax';
-
 
 class Card extends React.Component {
-    componentDidMount() {
-        this.rellax = new Rellax('.rellax');
-    }
     render() {
         const name = this.props.name;
-        const project = this.props.button1;
-        const github = this.props.button2;
+        const description = this.props.description;
         const imgSrc = this.props.src;
         const projectLink = this.props.projectLink;
         const githubLink = this.props.githubLink;
         const target = this.props.target;
         return(
-            <React.Fragment> 
-                <div className='project-card is-12-mobile is-half-tablet is-one-third-desktop'>
-                    <div className='img-column'>
-                        <Img src={imgSrc}/>
+            <React.Fragment>
+                <div className='column project-column'>
+                    <div className='project-card is-12-mobile is-half-tablet is-one-third-desktop'>
+                        <div className='img-div'>
+                            <Img src={imgSrc}/>
+                            <div className='overlay'> 
+                                <div className='card-info'>
+                                    <p className='description'>{description}</p>
+                                    <a href={githubLink} className='github-link' target={target}>Github <i className="fab fa-github"></i></a>
+                                    <a href={projectLink} className='demo-link' target={target}>Demo <i className="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>   
+                        </div>
                     </div>
-                    <div className='description-column has-text-centered'>
-                        <h3 className='subtitle is-5 name'>{name}</h3>
-                        <a href={projectLink} target={target}>
-                            <button type='button' className='project-btn button'><span><i className="fas fa-link"></i></span><span>{project}</span></button>
-                        </a>
-                        <a href={githubLink} target={target}>
-                            <button type='button' className='github-btn button'><span><i className="fab fa-github"></i></span><span>{github}</span></button>
-                        </a>
-                    </div>
-                </div>
+
+                    <p className='name'>{name}</p>
+                </div>   
             </React.Fragment>
         ) 
     }

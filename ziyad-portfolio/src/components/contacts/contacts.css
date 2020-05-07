@@ -10,3 +10,21 @@
 .subtitle-box {
 	margin-bottom: 50px;
 }
+
+@media (max-width: 425px) {
+	.subtitle-box {
+		margin-bottom: 30px;
+	}
+
+	#contacts {
+		padding: 60px 0 50px 0;
+	}
+
+	#contacts-columns {
+		margin: 0 5% 0 5%;
+	}
+
+	#contacts-title {
+		font-size: 25px;
+	}
+}

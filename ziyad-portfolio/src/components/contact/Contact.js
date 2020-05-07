@@ -9,7 +9,7 @@ class Contact extends React.Component {
         const target = this.props.target;
         return(
             <React.Fragment>
-                <div className='column is-one-quarter has-text-centered'>
+                <div className='column is-one-quarter is-12-mobile has-text-centered'>
                     <a href={link} className='contact-column content has-text-centered' target={target}>
                         <span className='contactName'><i className={logo}></i></span><br></br>
                         {contactName}

@@ -17,7 +17,7 @@ class Contacts extends React.Component {
                         id='contacts-title'>WHERE TO FIND ME</h3>
                         <Hr />
                     </div>
-                    <div className='columns'>
+                    <div className='columns is-mobile' id='contacts-columns'>
                             <Contact logo="fab fa-linkedin fa-3x" contactName='LinkedIn' link='https://www.linkedin.com/in/ziyad-guluzade-445939aa/' target='_blank'/>
                             <Contact logo='fas fa-phone-square fa-3x' contactName='Phone' link='tel:+16478311819' />
                             <Contact logo="far fa-envelope fa-3x" contactName='Email' link='mailto:ziyad_guluzade@outlook.com' target='_blank'/>

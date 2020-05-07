@@ -6,3 +6,8 @@
 .contact-column:hover {
 	color: grey;
 }
+
+.contact-column {
+	color: #ffffff;
+	font-size: 15px;
+}
